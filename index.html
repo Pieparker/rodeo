@@ -1,4 +1,5 @@
 <head>
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/assets/favicon.ico">
     <link href="/assets/style.css" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/css2?family=Caladea&display=swap" rel="stylesheet">
     <meta name="description" content="Yeehaw! Welcome to the Rodeo. Here's how to redirect to a subdomain based on a placeholder value."/>
@@ -7,7 +8,7 @@
 <div class="container">
     <div class="item">
         First discussed at <a href="https://answers.netlify.com/t/netlify-redirect-splat-subdomain/22983">https://answers.netlify.com/t/netlify-redirect-splat-subdomain/22983</a>.<br><br>
-        <code>/api/:org/* https://:org.netlify.rodeo/:splat</code><br><br>
-        Try navigating to <a href="https://redirect-subdomain-splat.netlify.rodeo/api/redirect-dummy-query-string/demo">https://redirect-subdomain-splat.netlify.rodeo/api/redirect-dummy-query-string/demo</a> – the subdomain will change!
+        <code>/api/:org/* https://:org.example.com/:splat</code><br><br>
+        The value of <code>:org</code> will become the subdomain for the site you are redirecting to.
     </div>
 </div>
