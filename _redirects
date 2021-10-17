@@ -1,4 +1,3 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
-/urldummy id=:id /urldummy 301!
 /urldemo id=:id /urldemo?redir 301!
 /urltest id=:id /urldemo?redir
